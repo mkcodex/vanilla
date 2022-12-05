@@ -38,7 +38,7 @@ public class CapabilitiesFactory {
             case EDGE:
                 return getEdgeOptions();
             default:
-                throw new IllegalStateException(String.format("%s is not a valid browser choice. Pick your browser from %s.", browser, java.util.Arrays.asList(browser.values())));
+                throw new IllegalStateException(String.format("%s is not a valid browser choice. Pick your browser from %s.", browser, java.util.Arrays.asList(Browser.values())));
         }
     }
 
